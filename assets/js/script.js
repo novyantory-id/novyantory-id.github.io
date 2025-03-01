@@ -555,7 +555,7 @@ async function previewwPDF() {
 
   const pdfBlob = pdf.output("blob");
   pdfBlobURL = URL.createObjectURL(pdfBlob);
-  window.open(pdfBlobURL);
+  window.open(pdfBlobURL, "_blank");
 
   const iframe = document.getElementById("pdfFrame");
   iframe.src = pdfBlobURL;

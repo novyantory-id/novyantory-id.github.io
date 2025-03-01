@@ -695,6 +695,10 @@ footer ul li a {
   color: transparent;
   font-size: 1.6rem;
 }
+.introduce span {
+  color: black;
+  font-size: 1rem;
+}
   .project-card img {
     width: 30vw;
     border-radius: 1rem;

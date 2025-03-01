@@ -680,6 +680,21 @@ footer ul li a {
   header .visit-btn {
     display: none;
   }
+  .info-box h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.info-box h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.info-box span {
+  background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+  background-clip: text;
+  color: transparent;
+  font-size: 1.6rem;
+}
   .project-card img {
     width: 30vw;
     border-radius: 1rem;
